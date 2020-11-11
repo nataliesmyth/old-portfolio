@@ -1,0 +1,21 @@
+{
+  "name": "ga-sei-boston.browser-template",
+  "version": "0.1.0",
+  "private": true,
+  "license": {
+    "software": "GNU GPLv3",
+    "content": "CC­BY­NC­SA 4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass --watch assets/styles/scss -o assets/styles",
+    "serve": "browser-sync start --server --files 'index.html, assets/styles/main.css, assets/scripts/index.js'"
+  }
+}

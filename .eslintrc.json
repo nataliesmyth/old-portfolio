@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "root": true,
+  "env": {
+      "browser": true,
+      "jquery": true
+  },
+  "rules": {
+    "prefer-const": "error",
+    "no-var": "error"
+  }
+}
