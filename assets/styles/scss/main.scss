@@ -1,0 +1,8 @@
+// var's defined with !default can be configured when loading a module w the @use rule
+// sass libraries often use !default vars to allow their users to configure the library's CSS
+// to load module with configuration, write: @use <url> with (<variable>: <value>, <variable>: <value>)
+
+$black: #494949 !default;
+$white: #FFF !default;
+$yellow: #FFE047 !default;
+$coral: #E67856 !default;
