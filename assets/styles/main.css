@@ -4,3 +4,7 @@
     --yellow: #FFE047;
     --coral: #e67856;
 }
+
+body {
+    color: var(--black);
+}
