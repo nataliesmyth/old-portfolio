@@ -21,6 +21,50 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/***** NAV *****/
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .nav-item {
+    font-size: 1.3em;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    padding-bottom: 16px;
+    border-bottom: 4px solid var(--white);
+  }
+
+ /***** PROJECT GALLERY *****/
+  
+  .project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project-gallery img {
+    max-width: 250px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    transition: opacity 0.2s linear, transform 0.2s ease-in-out;
+  }
+  
+  .project-gallery img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+
 .details {
   color: white;
 }
