@@ -7,6 +7,7 @@
     --link: #e76f51;
     --clicked: #f58428;
     --background: #2a9d8f;
+    /* --background: #2a9d8f; */
 }
 
 html,
@@ -16,9 +17,14 @@ body {
 }
 
 body {
-  background: var(--background);
+  background: var(--black);
   position: relative;
   font-family: 'Lato', sans-serif;
+}
+
+iframe {
+    width: 40px;
+    height: 120px;
 }
 
 /***** NAV *****/
@@ -82,11 +88,11 @@ body {
 
 a:hover,
 a:visited:hover {
-  color: var(--hover);
+  color: var(--white);
 }
 
 a:visited {
-  color: var(--clicked);
+  color: var(--yellow);
 }
 
 .square-one .inner {
