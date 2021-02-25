@@ -4,10 +4,14 @@
     --yellow: #FFE047;
     --dark-yellow: #E9C46A;
     --brown: #f4a261;
-    --link: #e76f51;
+    --red: #e76f51;
     --clicked: #f58428;
     --background: #2a9d8f;
     /* --background: #2a9d8f; */
+    /* square colors */
+    --square-dark: #D7431D;
+    --square-medium: var(--red);
+    --square-light: #F0A693;
 }
 
 html,
@@ -78,7 +82,7 @@ iframe {
 .profile-link {
   color: var(--link);
   font-size: 12px;
-  display: block;
+  /* display: block; */
 }
 
 .link-heading {
@@ -95,16 +99,22 @@ a:visited {
   color: var(--yellow);
 }
 
-.square-one .inner {
-  background: #74545A;
+.square-one {
+    /* background: var(--dark-yellow); */
+    position: absolute;
+  }
+
+.square-one img {
+  border: 5px solid #FFE047;
+  position: relative;
 }
 
 .square-two .inner {
-  background: #B5838D;
+    background: var(--square-medium);
 }
 
 .square-three .inner {
-  background: #EEBDBF;
+    background: var(--square-light);
 }
 
 .outer {
