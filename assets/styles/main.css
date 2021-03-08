@@ -18,6 +18,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: var(--white);
 }
 
 body {
@@ -31,7 +32,9 @@ iframe {
     height: 120px;
 }
 
-
+.container {
+  margin: 1em;
+}
 
 /***** NAV *****/
 .nav-list {
@@ -55,12 +58,25 @@ iframe {
     border-bottom: 4px solid var(--white);
   }
 
+
+ /***** ABOVE THE FOLD *****/
+
+ .welcome {
+   display: flex;
+   padding: 2em;
+   justify-content: center;
+ }
+
+ .index-photo {
+   margin: 1em;
+ }
+
  /***** PROJECT GALLERY *****/
   
   .project-gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   
