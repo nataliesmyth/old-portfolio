@@ -21,11 +21,17 @@ body {
   color: var(--white);
 }
 
+.container {
+ display: flex;
+ 
+}
 body {
   background: var(--black);
   position: relative;
   font-family: 'Lato', sans-serif;
 }
+
+
 
 iframe {
     width: 40px;
@@ -34,6 +40,7 @@ iframe {
 
 .container {
   margin: 1em;
+  padding: 1em;
 }
 
 /***** NAV *****/
