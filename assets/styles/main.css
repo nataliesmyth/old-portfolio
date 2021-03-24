@@ -21,26 +21,26 @@ body {
   color: var(--white);
 }
 
+
 .container {
- display: flex;
- 
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
 }
+
 body {
   background: var(--black);
   position: relative;
   font-family: 'Lato', sans-serif;
 }
 
-
-
+h2 {
+  text-align: center;
+}
 iframe {
     width: 40px;
     height: 120px;
-}
-
-.container {
-  margin: 1em;
-  padding: 1em;
 }
 
 /***** NAV *****/
@@ -89,7 +89,7 @@ iframe {
   
   .project-gallery img {
     max-width: 250px;
-    margin-bottom: 25px;
+    margin: 25px;
     opacity: 0.9;
     transition: opacity 0.2s linear, transform 0.2s ease-in-out;
   }
