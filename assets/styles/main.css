@@ -9,18 +9,16 @@
   --background: #2a9d8f;
   /* --background: #2a9d8f; */
   /* square colors */
-  --square-dark: #D7431D;
-  --square-medium: var(--red);
-  --square-light: #F0A693;
+
 }
 
 html,
 body {
 margin: 0;
 padding: 0;
-color: var(--white);
+color: var(--black);
 font-size: 18px;
-background: var(--black);
+background: var(--white);
 position: relative;
 font-family: 'Lato', sans-serif;
 }
