@@ -19,6 +19,10 @@ body {
 margin: 0;
 padding: 0;
 color: var(--white);
+font-size: 16px;
+background: var(--black);
+position: relative;
+font-family: 'Lato', sans-serif;
 }
 
 
@@ -27,12 +31,6 @@ margin: 1em;
 padding: 1em;
 display: flex;
 justify-content: center;
-}
-
-body {
-background: var(--black);
-position: relative;
-font-family: 'Lato', sans-serif;
 }
 
 h2 {
@@ -58,9 +56,11 @@ iframe {
 
 .nav-link {
   text-decoration: none;
+  color: var(--yellow);
 }
 
 .nav-link:hover {
+  color: var(--white);
   padding-bottom: 16px;
   border-bottom: 4px solid var(--white);
 }
@@ -68,15 +68,21 @@ iframe {
 
 /***** ABOVE THE FOLD *****/
 
+.about-me {
+  padding: 1em;
+  width: 32em;
+}
+
+.index-photo {
+ margin: 1em;
+}
+
 .welcome {
  display: flex;
  padding: 2em;
  justify-content: center;
 }
 
-.index-photo {
- margin: 1em;
-}
 
 /***** PROJECT GALLERY *****/
 
