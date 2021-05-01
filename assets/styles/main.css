@@ -117,6 +117,9 @@ display: block;
 font-size: 12px;
 }
 
+a {
+  color: #2a9d8f;
+}
 a:hover,
 a:visited:hover {
 color: var(--white);
